@@ -29,6 +29,14 @@
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">Выйти</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">Настройки</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.About">О нас</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Аккаунт Lyricify</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">Администратор</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.2">Альфа-инсайдер</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.3">Менеджер тексты</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.4">Инсайдер</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.5">Обычно</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.6">Ограниченно</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.Null">Нет или не зарегистрировано</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Media Session</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">Подключено</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Отключено</system:String>
@@ -364,6 +372,10 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">Приоритет перевода Netease Music</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable">Текст Syllable Netease</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">Включить текстов Syllable Netease</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch">Включить Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">Использование Musixmatch в качестве альтернативного источника текстов</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable">Текст Syllable Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable.Description">Включить текстов Syllable Musixmatch</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Текст Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Фон текста</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Выберите фон для текста Apple Music</system:String>
@@ -386,9 +398,9 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Плавающая анимация</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">Пульс шагает и в ритм</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">Выкл.</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Низкий (по умолчанию)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Низкий</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">Средний</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">Высокий</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">Высокий (по умолчанию)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">Очень высокий</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">Эффект свечения слов</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">Сияет как звезда</system:String>
@@ -411,7 +423,21 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Включить запоминание масштаба в тексте Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset">Пресеты стиля</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.Description">Подробности зависят от версии системы</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 и более</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Default">По умолчанию</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Custom">Персонализация</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS163AndLater">iOS 16.3 и выше</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 и выше</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 и выше</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">Ширина перехода</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Ширина перехода прозрачности</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Текстовое действие эффект живописи</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation.Description">Детали эффекта рисования текстового действия</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">Fly-out фоновая лирика</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Фоновый вокал вылетает из анимации с режиссурой</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Мобильная раскладка</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Мобильная раскладка Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Направление выравнивания точек дыхания</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">Точки дыхания всегда выравниваются по левому краю на iOS и остаются на той же стороне, что и текст песни на Android</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">Предотвращение спящий режим</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">Предотвращение перехода компьютера в спящий режим</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">Всегда</system:String>
@@ -429,7 +455,10 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Режим Byland</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland или Island, решать вам! Разные стили имеют разные функции</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island автоматически исчезнет при входе курсора в режиме Byland, но в режиме Island вы можете вы ваш курсор, чтобы переместить остров. &#x000A;Вы сможете закрыть Dynamic Lyrics Island, щелкнув правой кнопкой мыши меню в режиме острова, но в режиме Byland вы можете закрыть только главное меню или горячую клавишу.</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Всегда показывать две строки</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">Индекс экрана</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">Выберите, на каком экране будет отображаться Dynamic Lyrics Island в режиме Byland</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">Экран {0}</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem.Primary">Экран {0} (основной монитор)</system:String>    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Всегда показывать две строки</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Всегда показывать две строки текста, даже если перевод недоступен</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">Скрыть перевод и транскрипцию</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation.Description">Скрыть перевод и транскрипцию, даже если они доступны</system:String>
@@ -441,6 +470,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">Если включить этот параметр, Dynamic Lyrics Island будет скрыт во время паузы</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">Скрыть когда полноэкранный режим</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">Скрывать Dynamic Lyrics Island, когда программа работает в полноэкранном режиме</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">Показать фотографии артиста</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">При переходе к новому треку изображение исполнителя отображается в левой части Dynamic Lyrics Island.</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Непрозрачность</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Слова для рабочего стола</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Режим две строки</system:String>
@@ -525,7 +556,7 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">Предпочитаемый регион рекомендаций</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">Это повлияет на вашу домашнюю страницу</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">По умолчанию (регион вашей учетной записи)</system:String>
-    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">Внутреннее местоположение (ваш регион IP)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">Внутреннее местоположение (ваш регион IP)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">Расширенные</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Включить повторное связывание обложки трека</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Использовать повторно связанную обложку вместо обложки из исходной дорожки, когда дорожка повторно связана</system:String>
@@ -565,6 +596,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">Порт</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">Имя пользователя</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">Пароль</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">Проверить соединение</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">Переопределение прокси не включено, результаты тестирования могут отличаться. Все еще тестируете?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Status">Статус</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Connected">Онлайн</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">Оффлайн</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">ОК</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Для вступления в силу некоторых функций может потребоваться перезагрузка.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">Файл настроек</system:String>
@@ -799,6 +835,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ShowTranslation">Показать перевод</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ColorfulLogo">Красочный логотип</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowTranslation">Показать перевод</system:String>
+        <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowBackgroundVocals">Включить фоновый вокал</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ColorfulLogo">Красочный логотип</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.BoldText">Жирный текст</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Копировать</system:String>
@@ -971,8 +1008,17 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportKugouLyrics">Импорт текстов из KuGou Music</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">Получение текстов QRC</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetLyricifySyllable">Получение текстов Lyricify Syllable песен</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Генератор дословных строк</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StartRecord">Начало записи</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StopRecord">Стоп записи</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.Clear">Очистить</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.InputLyrics">Импортировать текст</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.OutputLyrics">Экспорт текста</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Генератор посимвольного переноса строки</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Перемещатель посимвольного переноса строки</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.CopyCurrentTime">Копировать текущей метки времени</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.GetTimestampByMillisecond">Получить миллисекунды по метке времени</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.MoveTo">Перейти</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">Перемещение начальных пробелов в конец</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">Примечание: &#x000A; Если у Tencent Music или NetEase Music есть тексты песен, пожалуйста, не загружайте тексты из других источников вручную! Пожалуйста, не загружайте тексты песен из других источников, если они доступны на Tencent Music или NetEase Music! Если вы не можете найти тексты песен с помощью кнопки поиска на Lyricify, это не значит, что их нет, вам нужно вручную перейти в приложения Tencent Music и NetEase Music и убедиться, что текстов нет, прежде чем считать их "без текстов". Если вы нарушите это правило, есть вероятность, что ваш аккаунт будет заблокирован. Все еще хотите импортировать?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Импорт текстов из Apple Music</system:String>
