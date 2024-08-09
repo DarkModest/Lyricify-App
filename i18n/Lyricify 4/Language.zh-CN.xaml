@@ -259,6 +259,14 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">左滑或右滑以最大化</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">下滑以最小化</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">按下右键滑动以控制歌词位置</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Close">退出 Apple Music 歌词</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MaximizeWindow">全屏窗口</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.RestoreWindow">还原窗口</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MinimizeWindow">最小化窗口</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToCurrentLine">查看当前行</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToFirstLine">查看首行</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToLastLine">查看末行</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.None">无操作</system:String>
 
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">前往艺人</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">前往专辑</system:String>
@@ -268,7 +276,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">显示艺人</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">显示专辑</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon">创作者：</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon">创作者：</system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">关于</system:String>
@@ -318,6 +326,8 @@
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">改变 Lyricify 的颜色模式</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">深色 (默认)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">浅色</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset">界面字体预设</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset.Description">为 Lyricify 界面选择字体预设</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">歌词背景</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.Description">改变歌词背景</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.SingleColor">纯色</system:String>
@@ -391,6 +401,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">级别</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">粗体文本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">在 Apple Music 歌词内使用粗体文本</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset">字体预设</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset.Description">在 Apple Music 歌词内使用预设字体</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">卡拉 OK 模式</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">是哒，现在你可以在 Apple Music 歌词中使用卡拉 OK 样式的歌词</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">禁用 CJK 歌词的卡拉 OK 样式</system:String>
@@ -406,6 +418,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">极高</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">单词发光效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">一闪一闪亮晶晶，歌词成了小星星</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk">启用 CJK 单词发光效果</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk.Description">为多个 CJK 字符启用单词发光效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">对唱视图</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">多位歌手会在屏幕两侧显示，让对唱或多人合唱歌曲跟唱起来更加轻松</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">优先右侧对齐</system:String>
@@ -418,9 +432,13 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">中度 (默认)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.High">高</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">极高</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature">妙控条功能描述</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature.Description">使用妙控条时显示对应功能</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">显示妙控条教程</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">总是在进入 Apple Music 歌词后显示妙控条教程</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">隆重推出妙控条 (Magic Strip)！ &#x000A;&#x000A;你可以点击条状按钮来退出 Apple Music 歌词，&#x000A;向下滑动以最小化，&#x000A;向左或向右滑动以最大化或还原，&#x000A;向上滑动以取消操作。&#x000A;&#x000A;你还可以按下右键向上滑动跳到首行歌词，&#x000A;向下滑动跳到最后一行歌词，&#x000A;向左或向右滑动跳到当前行，&#x000A;仅右击则无操作。</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime">动态时间状态</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime.Description">启用时间状态改变动画</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">缩放记忆</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">在 Apple Music 歌词中恢复缩放记忆</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset">样式预设</system:String>
@@ -434,10 +452,16 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">透明度过渡宽度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">行内动画</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation.Description">歌词行动画细节</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed">不透明度切换</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">逐音节行不透明度的切换速度</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">逐音节待播放不透明度</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">待播放模式下音节的不透明度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">背景人声飞出</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">背景人声飞出动画与方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">移动端布局</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Apple Music 移动端布局</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">单词发光效果</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">单词发光效果在 iOS 和 Android 上不同</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">呼吸点对齐方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">呼吸点在 iOS 上总是左对齐，而在安卓上与歌词保持同侧</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">阻止睡眠</system:String>
@@ -476,6 +500,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">显示艺人图片</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">当你切换到新的曲目后，在灵动词岛左侧显示艺人图片</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">不透明度</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">缩放比例</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">控制灵动词岛的尺寸和缩放</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">桌面歌词</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">双行模式</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">关闭后将只显示一行歌词</system:String>
@@ -564,6 +590,10 @@
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">使用重新链接曲目的专辑图片</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">当曲目被重新链接时，使用重新链接曲目的专辑图片代替原曲目的专辑图片</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">曲目的可用性取决于在用户的 Spotify 配置文件设置中注册的国家/地区。 Spotify 通常在其目录中有多个曲目实例，每个曲目在不同的市场集上可用。 当专辑所在的曲目已在不同市场以不同许可多次发行时，通常会发生这种情况。&#x000A;&#x000A;这些曲目链接在一起，因此当用户尝试播放他们自己的市场上没有的曲目时，Spotify 移动、桌面和网络播放器会尝试播放用户市场上可用的曲目的另一个实例。</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine">Lyricify 智能引擎</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description">为 Lyricify 与 Spotify 的连接与交互提供强大的智慧技术和功能支持</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description.Premium">需要 Spotify Premium 订阅！</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Button.GetPremium">获取 Spotify Premium</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">启用 Media Session 增强</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">使用系统 Media Session 以提升使用 Spotify 桌面端时的体验. (确保你在 Spotify 设置中开启了“使用媒体键时显示桌面叠加”)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">启用播放更新增强</system:String>
@@ -573,10 +603,13 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Crossfade (淡入/淡出) 已被启用，时间轴修正可能无法正常工作</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">启用歌词预加载</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">预加载歌词可以让曲目切换时的歌词加载几乎无感</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">启用取消点赞确认</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">从你的资料库 (已点赞的歌曲) 中删除歌曲前请求确认</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">启用中文转换</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">为 Spotify 内容启用中文转换</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">设备延迟</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">单位：毫秒。此参数是为蓝牙回放设备的延迟设计的，不要将此用于设置歌词时间差。刷新歌词后生效</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Button.Configure">配置</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">热键管理</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">打开热键管理器，管理全局快捷键</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">打开</system:String>
@@ -585,6 +618,9 @@
     <system:String x:Key="String.Page.Settings.Advanced.Updates">更新</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Description">Lyricify 更新相关设置</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Button.Check">检查更新</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Notify">通知</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Download">下载并稍后安装</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.DownloadAndInstall">下载并立即安装</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate">自动更新</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate.Description">自动检测和安装新版本的 Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource">更新来源</system:String>
@@ -654,6 +690,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced">高级</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.BackupCenter">备份与自动化中心</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CustomConfigurationManager">自定义配置管理器</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.DeviceLatencyManager">设备延迟管理器</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">热键管理器</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">本地文件管理器</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">登录到 Spotify 网页版</system:String>
@@ -697,6 +734,10 @@
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">双击以隐藏 2s</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">水平居中</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">关闭</system:String>
+
+    <!--Desktop Lyrics-->
+    <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">双行模式</system:String>
+    <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">歌词对齐</system:String>
 
     <!--Apple Music Lyrics-->
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.In">放大</system:String>
@@ -819,6 +860,7 @@
     <system:String x:Key="String.Windows.FontSelector">字体选择工具</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">已安装的字体</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">设置字体家族</system:String>
+    <system:String x:Key="String.Windows.FontSelector.SetFontFamily.SearchBar.PlaceHolder">筛选字体</system:String>
     <system:String x:Key="String.Windows.FontSelector.AddToList">添加到列表</system:String>
     <system:String x:Key="String.Windows.FontSelector.RemoveFromList">从列表移除</system:String>
     <system:String x:Key="String.Windows.FontSelector.MoveUp">上移</system:String>
@@ -852,6 +894,7 @@
     <!--Configure Web Window-->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">在这里登录 Spotify 以启用 Lyricify 内置播放</system:String>
     <system:String x:Key="String.Window.ConfigureWeb.Notice2">如果 Spotify 网页版正常显示，那么 Lyricify 的内嵌播放应该是可以播放的。(可能会需要重启 Lyricify)</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.ToggleSwitch">启用内嵌播放</system:String>
 
     <!--Custom Configuration Manager-->
     <system:String x:Key="String.Window.CustomConfigurationManager">自定义配置管理器</system:String>
@@ -883,6 +926,25 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">向上移动</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">向下移动</system:String>
 
+    <!--Device Latency Manager-->
+    <system:String x:Key="String.Window.DeviceLatencyManager">设备延迟管理器</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description">为每个播放设备设置独立的设备延迟值。</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description.Additional">此参数是为回放设备的延迟 (如蓝牙设备等) 设计的，不要将此用于设置歌词时间差。</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency">默认延迟</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency.Description">以毫秒为单位的自然数，默认值为 0。</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceList">设备列表</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Default">默认</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Custom">自定义</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Menu.Remove">移除</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Icon.CurrentDevice.ToolTip">当前播放设备</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency">当前延迟:</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency.Value">{0} 毫秒</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DisconnectedOrDisabled">未连接或未启用</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshDeviceList">刷新设备列表</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshLyrics">刷新歌词</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close">关闭</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close.Notice">所有设置将会自动被保存。</system:String>
+
     <!--Hotkey Manager-->
     <system:String x:Key="String.Window.HotkeyManager">热键管理器</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Description">你可以在这里管理全局快捷键。(使用退格键 (Backspace) 以清除快捷键)</system:String>
@@ -913,6 +975,10 @@
     <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">无图片 (点击添加)</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">添加一张图片</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">替换为另一张图片</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.All">所有支持的文件</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Image">图片文件</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Audio">音频文件</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.ImageNotFoundInMediaFile">在选中的媒体文件中没有找到图片。</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessUpdate">成功更新了图片。</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.FailUpdate">更新图片失败。</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AskRemove">确定要移除这张图片吗？</system:String>
@@ -1159,6 +1225,7 @@
     <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify 歌词库</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ 音乐</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">网易云音乐</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Musixmatch">Musixmatch</system:String>
 
     <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">标记为正确歌词</system:String>
     <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">查看来源</system:String>
@@ -1167,6 +1234,7 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">已在服务器上标记</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">自动搜索</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">当前版本已过时，请更新</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Uploading">正在上传歌词至服务器...</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">成功在服务器上标记</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">歌词已经被标记</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">标记失败，这可能是内部错误</system:String>
@@ -1195,6 +1263,15 @@
     <!--Converter-->
     <system:String x:Key="String.Converter.ValueString">已完成 {0}%</system:String>
 
+    <!--Dialogs-->
+    <system:String x:Key="String.Dialog.Store.Title">你发现了一项专属功能！</system:String>
+    <system:String x:Key="String.Dialog.Store.Explore">我们邀请您在 Microsoft Store 探索 Lyricify，以获得更佳的体验。您的支持将极大地推动我们对其进行持续改进和发展。</system:String>
+    <system:String x:Key="String.Dialog.Store.Purchase">我们鼓励您考虑在 Microsoft Store 购买 Lyricify。您的支持将帮助我们持续提升您的使用体验，并继续开发新功能。</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.GoToStore">前往 Microsoft Store</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.Close">关闭</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator">已经是打赏用户?</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator.ToolTip">对于打赏金额等于或超过 Microsoft Store 售价的支持者，可向开发者索取免费的 Microsoft Store 兑换码。</system:String>
+
     <!--
         Messages
     -->
@@ -1214,6 +1291,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http 请求错误，请稍后再试</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">未找到 Lyricify 账户，服务器相关功能将被限制&#x000A;重新登录也许会有作用</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">你的 Lyricify 账户已被限制，联系管理员以寻求帮助</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.RegistrationRepaired">成功修复注册了你的 Lyricify 账户！</system:String>
     <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">建议获取 Spotify Premium 以充分利用 Lyricify</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify 将被关闭</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">出了一些问题，Lyricify 将关闭。</system:String>
